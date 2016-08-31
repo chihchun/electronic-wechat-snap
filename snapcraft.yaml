@@ -1,0 +1,19 @@
+name: wechat
+version: 1.4.0
+summary: A better WeChat client based on Electronic
+description: 
+  The is a Electronic wrapper of wechat web frontend.
+  https://github.com/geeeeeeeeek/electronic-wechat/releases
+confinement: devmode
+
+apps:
+  wechat:
+    command: ./lib/node_modules/electronic-wechat/node_modules/electron-prebuilt/dist/electron src/main.js
+    plugs: [unity7]
+
+parts:
+  wechat:
+    plugin: nodejs
+    source: https://github.com/geeeeeeeeek/electronic-wechat.git
+    source-branch: v1.4.0
+    source-type: git
