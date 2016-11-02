@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Wechat
+Name[zh_TW]=微信
+Name[zh_CN]=微信
+GenericName=Electronic Wechat
+Comment=Electronic Wechat
+Exec=
+Icon=${SNAP}/meta/gui/wechat.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Network;Application;
