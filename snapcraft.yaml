@@ -10,8 +10,6 @@ apps:
   electronic-wechat:
     command: electronic-wechat
     plugs: [unity7, network, network-bind, home]
-  dash:
-    command: dash
 
 parts:
   electronic-wechat:
